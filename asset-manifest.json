@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/goit-course-react/static/js/main.1085ad9e.chunk.js",
+    "main.js.map": "/goit-course-react/static/js/main.1085ad9e.chunk.js.map",
+    "runtime-main.js": "/goit-course-react/static/js/runtime-main.bdd6f54e.js",
+    "runtime-main.js.map": "/goit-course-react/static/js/runtime-main.bdd6f54e.js.map",
+    "static/js/2.d8dcd7f3.chunk.js": "/goit-course-react/static/js/2.d8dcd7f3.chunk.js",
+    "static/js/2.d8dcd7f3.chunk.js.map": "/goit-course-react/static/js/2.d8dcd7f3.chunk.js.map",
+    "index.html": "/goit-course-react/index.html",
+    "precache-manifest.09205aa0b91b13c134ef6531334831d5.js": "/goit-course-react/precache-manifest.09205aa0b91b13c134ef6531334831d5.js",
+    "service-worker.js": "/goit-course-react/service-worker.js",
+    "static/js/2.d8dcd7f3.chunk.js.LICENSE.txt": "/goit-course-react/static/js/2.d8dcd7f3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdd6f54e.js",
+    "static/js/2.d8dcd7f3.chunk.js",
+    "static/js/main.1085ad9e.chunk.js"
+  ]
+}
