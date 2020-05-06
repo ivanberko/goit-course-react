@@ -1,25 +1,23 @@
 import React from "react";
-import Product from "./Product";
-import Panel from "./Panel";
-import Profile from "./Profile";
+import Description from "./Profile/Description";
+import StatsUser from "./Profile/StatsUser";
+import Profile from "./Profile/Profile";
+import { name, tag, location, avatar, stats } from "./Profile/user.json";
+import Statistics from "./Statistics/Statistics";
+import statistical from "./Statistics/statistical-data.json";
 
 const App = () => (
-  <div>
-    <Panel title="some title">
-      <Profile name="Ivan" email="berkoivan@gmail.com" />
-    </Panel>
-    <Product
-      price={10.99}
-      imageUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
-      alt="Tacos With Lime"
-      name="Tacos With Lime"
-    />
-    <Product
-      imageUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?dpr=2&h=480&w=640"
-      price={14.29}
-      name="Fries and burger"
-    />
-  </div>
+  <>
+    <Profile>
+      <Description name={name} tag={tag} location={location} avatar={avatar} />
+      <StatsUser
+        followers={stats.followers}
+        views={stats.views}
+        likes={stats.likes}
+      />
+    </Profile>
+    <Statistics stats={statistical} />
+  </>
 );
 
 export default App;
