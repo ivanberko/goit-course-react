@@ -1,19 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
+import style from "./profile.module.css";
 
 const StatsUser = ({ followers, views, likes }) => (
-  <ul className="stats">
+  <ul className={style.stats}>
     <li>
-      <span className="label">Followers</span>
-      <span className="quantity">{followers}</span>
+      <span className={style.label}>Followers</span>
+      <span className={style.quantity}>{followers}</span>
     </li>
     <li>
-      <span className="label">Views</span>
-      <span className="quantity">{views}</span>
+      <span className={style.label}>Views</span>
+      <span className={style.quantity}>{views}</span>
     </li>
     <li>
-      <span className="label">Likes</span>
-      <span className="quantity">{likes}</span>
+      <span className={style.label}>Likes</span>
+      <span className={style.quantity}>{likes}</span>
     </li>
   </ul>
 );
@@ -21,7 +22,7 @@ const StatsUser = ({ followers, views, likes }) => (
 StatsUser.propTypes = {
   followers: PropTypes.number.isRequired,
   views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired
+  likes: PropTypes.number.isRequired,
 };
 
 export default StatsUser;
