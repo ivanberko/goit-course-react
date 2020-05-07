@@ -1,0 +1,52 @@
+.statistics {
+  display: inline-block;
+  box-shadow: 0 2px 2px rgba(2, 2, 2, 0.02);
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: #475965;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.16px;
+  padding: 30px 0;
+}
+
+.statList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 67px;
+  height: 67px;
+  background-color: #e64c65;
+}
+.item:not(:last-child) {
+  margin-right: 0.5px;
+}
+
+.label,
+.percentage {
+  display: block;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  padding-top: 10px;
+  margin-bottom: 12px;
+}
+
+.percentage {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+}
