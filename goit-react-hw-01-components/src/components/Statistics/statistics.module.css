@@ -27,7 +27,7 @@
   background-color: #e64c65;
 }
 .item:not(:last-child) {
-  margin-right: 0.5px;
+  margin-right: 1px;
 }
 
 .label,
