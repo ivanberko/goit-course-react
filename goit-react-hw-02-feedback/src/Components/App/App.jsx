@@ -29,11 +29,9 @@ export default class App extends Component {
   onLeaveFeedback = (e) => {
     const targetName = e.target.name;
     this.countTotalFeedback();
-    this.setState((prevState) => {
-      return {
-        [targetName]: prevState[targetName] + 1,
-      };
-    });
+    this.setState((prevState) => ({
+      [targetName]: prevState[targetName] + 1,
+    }));
   };
 
   render() {
